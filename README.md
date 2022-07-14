@@ -8,3 +8,8 @@
 ## Orientações Gerais
 - [Melhores práticas para commits no Git/Github](https://www.conventionalcommits.org/en/v1.0.0/#specification)
 - Clonar o repositório e sempre realizar `pull request` da branch local (development) antes do merge na branch `main`
+
+## Propostas de Implementação Backend/AWS
+- [Integração com API Gateway, Lambda e DynamoDB](https://docs.aws.amazon.com/pt_br/apigateway/latest/developerguide/http-api-dynamo-db.html)
+- [Integração com API Gateway e DynamoDB](https://medium.com/@likhita507/using-api-gateway-to-get-data-from-dynamo-db-using-without-using-aws-lambda-e51434a4f5a0)
+

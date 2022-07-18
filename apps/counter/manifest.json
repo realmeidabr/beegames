@@ -1,9 +1,9 @@
 {
-  "vendor": "vtex",
-  "name": "countdown",
-  "version": "0.0.1",
-  "title": "Countdown",
-  "description": "Countdown component",
+  "vendor": "controll",
+  "name": "balance-counter",
+  "version": "1.0.0",
+  "title": "Balance Counter",
+  "description": "Balance counter component",
   "defaultLocale": "pt-BR",
   "builders": {
     "messages": "1.x",

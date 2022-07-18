@@ -5,3 +5,7 @@ export interface TimeSplit {
 }
 
 type GenericObject = Record<string, any>
+
+// export interface CounterState {
+//   count: number
+// }

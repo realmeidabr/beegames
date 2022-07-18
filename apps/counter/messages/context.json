@@ -1,4 +1,9 @@
 {
-  "editor.countdown.title": "Countdown",
-  "editor.countdown.description": "Countdown component"
+  "balance-counter.title": "Points Balance",
+  "editor.balance-counter.title": "Points Balance",
+  "editor.balance-counter.description": "Points balance component",
+  "editor.balance-counter-title.title": "Counter Title",
+  "editor.balance-counter-title.description": "Counter title description",
+  "editor.balance-counter-unit.title": "Counter Unit",
+  "editor.balance-counter-unit.description": "Counter unit text"
 }

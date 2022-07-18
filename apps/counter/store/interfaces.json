@@ -1,8 +1,11 @@
 {
-  "countdown": {
-    "component": "Countdown"
+  "balance-counter": {
+    "component": "BalanceCounter"
   },
-  "countdown.title": {
-    "component": "Title"
+  "balance-counter.title": {
+    "component": "BalanceCounterTitle"
+  },
+   "balance-counter.unit": {
+    "component": "BalanceCounterUnit"
   }
 }

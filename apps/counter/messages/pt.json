@@ -1,4 +1,9 @@
 {
-  "editor.countdown.title": "Contagem regressiva",
-  "editor.countdown.description": "Componente de contagem regressiva"
+  "balance-counter.title": "Saldo de Pontos",
+  "editor.balance-counter.title": "Saldo de Pontos",
+  "editor.balance-counter.description": "Saldo de pontos do usuário",
+  "editor.balance-counter-title.title": "Título do Contador",
+  "editor.balance-counter-title.description": "Título do contador de pontos",
+  "editor.balance-counter-unit.title": "Unidade do Contador",
+  "editor.balance-counter-unit.description": "Texto da unidade do contador de pontos"
 }

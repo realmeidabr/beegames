@@ -39,3 +39,8 @@ react/yarn.lock
 
 # Secrets
 .env
+
+# Folders
+events/
+services/
+backend/

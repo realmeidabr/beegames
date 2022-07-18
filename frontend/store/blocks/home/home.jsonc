@@ -1,0 +1,95 @@
+{
+  "store.home": {
+    "blocks": [
+      "list-context.image-list#demo",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "flex-layout.row#deals",
+      "__fold__",
+      "rich-text#shelf-title",
+      "flex-layout.row#shelf",
+      "info-card#home",
+      "newsletter"
+    ]
+  },
+
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "preload": true,
+      "images": [
+        {
+          "image": "assets/imgs/slider/slider-bee-games-home-desktop.png",
+          "mobileImage": "assets/imgs/slider/mobile-slider-bee-games-home.png"
+        },
+        {
+          "image": "assets/imgs/slider/slider-bee-games-fidelidade-desktop.png",
+          "mobileImage": "assets/imgs/slider/mobile-slider-bee-games-fidelidade.png"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    }
+  },
+
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "## Produtos",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "flex-layout.row#shelf": {
+    "children": ["list-context.product-list#demo1"]
+  },
+  "list-context.product-list#demo1": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "slider-layout#demo-products": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
+    }
+  },
+
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Apis_on_Adonidia_flower.gif/800px-Apis_on_Adonidia_flower.gif",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },
+
+  "newsletter":{
+    "props": {
+      "label": "Receba nossas novidades!",
+      "submit": "ENVIAR",
+      "placeholder": "Insira seu melhor email"
+    }
+  }
+}

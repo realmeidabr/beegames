@@ -1,7 +1,10 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text"
+      "rich-text",
+      "balance-counter.title",
+      "balance-counter",
+      "balance-counter.unit"
     ]
   },
   "rich-text": { 

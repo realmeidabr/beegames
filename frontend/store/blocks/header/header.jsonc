@@ -88,6 +88,7 @@
     ]
   },
   "flex-layout.row#1-mobile": {
+    "children":[
       "drawer",
       "logo#mobile",
       "flex-layout.col#spacer",

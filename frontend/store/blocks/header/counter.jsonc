@@ -1,0 +1,21 @@
+{
+    "flex-layout.col#counter": {
+        "props": {
+            "blockClass": "counter"
+        },
+        "children": [
+            "balance-counter.title",
+            "balance-counter"
+        ]
+    },
+    "balance-counter.title": {
+        "props": {
+            "textColor": "#212121 !important"
+        }
+    },
+    "balance-counter": {
+        "props": {
+            "textColor": "#212121 !important"
+        }
+    }
+}

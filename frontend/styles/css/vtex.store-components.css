@@ -20,7 +20,7 @@
 }
 
 .newsletter .container {
-  padding: 60px 10px;
+  padding: 20px 10px;
 }
 
 .label {
@@ -67,7 +67,7 @@
 
 @media only screen and (min-width: 640px) {
   .newsletter .container {
-    padding: 140px;
+    padding: 50px;
   }
   .label {
      font-size: 40px;

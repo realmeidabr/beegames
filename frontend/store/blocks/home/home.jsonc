@@ -8,7 +8,6 @@
       "__fold__",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
-      "info-card#home",
       "newsletter"
     ]
   },
@@ -19,12 +18,12 @@
       "preload": true,
       "images": [
         {
-          "image": "assets/imgs/slider/slider-bee-games-home-desktop.png",
-          "mobileImage": "assets/imgs/slider/mobile-slider-bee-games-home.png"
+          "image": "assets/imgs/slider/desktop-slider-bee-games-fidelidade.png",
+          "mobileImage": "assets/imgs/slider/mobile-slider-bee-games-fidelidade.png"
         },
         {
-          "image": "assets/imgs/slider/slider-bee-games-fidelidade-desktop.png",
-          "mobileImage": "assets/imgs/slider/mobile-slider-bee-games-fidelidade.png"
+          "image": "assets/imgs/slider/desktop-slider-bee-games-home.png",
+          "mobileImage": "assets/imgs/slider/mobile-slider-bee-games-home.png"
         }
       ]
     }
@@ -36,7 +35,9 @@
         "tablet": 1,
         "phone": 1
       },
+      /*"slideTransition": { "speed": 400, "delay": 0, "timing": "" },*/
       "infinite": true,
+      /*"autoplay": "undefined",*/
       "showNavigationArrows": "desktopOnly",
       "blockClass": "carousel"
     }
@@ -68,20 +69,6 @@
       "infinite": true,
       "fullWidth": false,
       "blockClass": "shelf"
-    }
-  },
-
-  "info-card#home": {
-    "props": {
-      "id": "info-card-home",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Apis_on_Adonidia_flower.gif/800px-Apis_on_Adonidia_flower.gif",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home",
-      "textAlignment": "center"
     }
   },
 

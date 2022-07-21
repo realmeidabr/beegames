@@ -19,7 +19,7 @@
   },
   "image#deal1": {
     "props": {
-      "src": "assets/imgs/icones/icones/novidades.png",
+      "src": "assets/imgs/icones/novidades.png",
       "maxHeight": "60px"
     }
   },
@@ -37,7 +37,7 @@
   },
   "image#deal2": {
     "props": {
-      "src": "assets/imgs/icones/icones/mais-vendidos.png",
+      "src": "assets/imgs/icones/mais-vendidos.png",
       "maxHeight": "60px"
     }
   },
@@ -55,7 +55,7 @@
   },
   "image#deal3": {
     "props": {
-      "src": "assets/imgs/icones/icones/promocoes.png",
+      "src": "assets/imgs/icones/promocoes.png",
       "maxHeight": "60px"
     }
   },
@@ -73,7 +73,7 @@
   },
   "image#deal4": {
     "props": {
-      "src": "assets/imgs/icones/icones/bee-clube.png",
+      "src": "assets/imgs/icones/bee-clube.png",
       "maxHeight": "60px"
     }
   },

@@ -68,7 +68,7 @@
   },
   "rich-text#footer": {
     "props": {
-      "text": "2022 BeeGames -  01.234.5678/0001-09 - Av. Brg. Faria Lima, 4440 - Vila Olímpia, São Paulo - SP, 04538-132",
+      "text": "2022 - BeeGames -  01.234.5678/0001-09 - Av. Brg. Faria Lima, 4440 - Vila Olímpia, São Paulo - SP, 04538-132",
       "blockClass": "footer"
     }
   },
@@ -109,7 +109,7 @@
   },
   "rich-text#footer-mobile": {
     "props": {
-      "text": "2022 BeeGames -  01.234.5678/0001-09 - Av. Brg. Faria Lima, 4440 - Vila Olímpia, São Paulo - SP, 04538-132",
+      "text": "2022 - BeeGames -  01.234.5678/0001-09 - Av. Brg. Faria Lima, 4440 - Vila Olímpia, São Paulo - SP, 04538-132",
       "blockClass": "footer"
     }
   }

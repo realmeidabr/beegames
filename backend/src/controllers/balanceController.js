@@ -23,6 +23,7 @@ class BalanceController {
   }
 
   //TODO: implement req.body validations
+  //TODO: refactor to reuse balance functions
   sumBalance = async (req, res) => {
     const { userId, amount } = req.body
     const balance = await IOClient.getUserPointsBalance(userId)

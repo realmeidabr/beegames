@@ -1,29 +1,24 @@
 import IOClient from '../services/index.js'
-
+import { calcPoints } from '../functions/calc.js'
 class OrderController {
 
   getFeedPing = async (req, res) => {
-    //console.log(req.body)
     const feedData = req.body
-    console.log(feedData)
     const orderId = feedData.OrderId
-    console.log(orderId)
-    const orderData = await IOClient.getOrderData(orderId)
-    //console.log(orderData)
+    this.dispatchFlowUpdates(orderId)
     res.send({ success: true })
+  }
+
+  dispatchFlowUpdates = async (orderId) => {
+    const orderData = await IOClient.getOrderData(orderId)
+    const clientId = orderData.clientProfileData.userProfileId
+    const orderValue = orderData.totals[0].value
+    const balance = await IOClient.getUserPointsBalance(clientId)
+    const newBalance = calcPoints(balance, orderValue, 'sum')
+    await IOClient.updateUserPointsBalance(clientId, newBalance)
   }
 }
 
 export default new OrderController
 
-/* TEST_CASE_1
-let userId = '35a37b17-a514-48b1-9d08-d4d6f83f0dc8'
-let balance = new BalanceController()
-balance.getBalance()
-*/
-
-// (req, res) => {
-//   const { orders } = req.body
-//   const newOrders = feedOrders(orders)
-//   res.send({ newOrders })
-// }
+// Tested via API client only (FeedV3 Order Hook dependent)

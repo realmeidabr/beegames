@@ -67,7 +67,6 @@ class IOClient {
     try {
       const response = await this.getUserData(userId)
       const balance = this.getValueByKey(response, 'userPointsBalance')
-      console.log(balance)
       return balance
     } catch (error) {
       console.error(error)
@@ -104,7 +103,6 @@ class IOClient {
   async updateUserPointsBalance(userId, newBalance) {
 
     try {
-      console.log(userId, newBalance)
       const userData = await this.getUserData(userId)
       const documentId = this.getValueByKey(userData, 'id')
       await this.updateUserData(documentId, 'userPointsBalance', newBalance)
@@ -131,7 +129,7 @@ class IOClient {
 
     try {
       const response = await axios(options)
-      return console.log(response.data)
+      return response.data
     } catch (error) {
       console.log(error)
     }

@@ -30,7 +30,7 @@ routes.get('/', (req, res) => {
 
 // ORDER
 // - [POST] /api/v1/orders/feed
-// recieves a feed of orders' updates
+// get a feed of orders' updates
 
   routes.post('/orders/feed', OrderController.getFeedPing)
 

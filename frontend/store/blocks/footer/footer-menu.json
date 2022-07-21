@@ -1,0 +1,291 @@
+{
+  "vtex.menu@2.x:menu#Consoles": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#consoles",
+      "menu-item#playstation",
+      "menu-item#xbox",
+      "menu-item#nintendo"
+    ]
+  },
+
+  "menu-item#consoles": {
+    "props": {
+      "id": "menu-item-consoles",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Consoles",
+        "text": "Consoles"
+      }
+    }
+  },
+
+  "menu-item#playstation": {
+    "props": {
+      "id": "menu-item-playstation",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Playstation",
+        "text": "Playstation"
+      }
+    }
+  },
+  "menu-item#xbox": {
+    "props": {
+      "id": "menu-item-xbox",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Xbox",
+        "text": "Xbox"
+      }
+    }
+  },
+  "menu-item#nintendo": {
+    "props": {
+      "id": "menu-item-nintendo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Nintendo",
+        "text": "Nintendo"
+      }
+    }
+  },
+  
+  "vtex.menu@2.x:menu#footer-pc": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#pc"
+    ]
+  },
+
+  "menu-item#pc": {
+    "props": {
+      "id": "menu-item-pc",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "PC",
+        "text": "PC"
+      }
+    }
+  },
+  
+  "vtex.menu@2.x:menu#footer-camisetas": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#camisetas"
+    ]
+  },
+
+  "menu-item#camisetas": {
+    "props": {
+      "id": "menu-item-camisetas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Camisetas",
+        "text": "Camisetas"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-mais": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#sobre",
+      "menu-item#videogames",
+      "menu-item#tvs"
+    ]
+  },
+
+  "menu-item#sobre": {
+    "props": {
+      "id": "menu-item-Sobre",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Sobre",
+        "text": "Sobre"
+      }
+    }
+  },
+
+  "menu-item#videogames": {
+    "props": {
+      "id": "menu-item-videogames",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Videogames",
+        "text": "SAC"
+      }
+    }
+  },
+
+  "menu-item#tvs": {
+    "props": {
+      "id": "menu-item-tvs",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "TVs",
+        "text": "Fale conosco"
+      }
+    }
+  },
+
+  
+  "vtex.menu@2.x:menu#footer-consoles": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#camisetas"
+    ]
+  },
+
+  
+
+
+
+  "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#consoles-mobile",
+      "menu-item#mais-mobile",
+      "menu-item#sale-mobile"
+    ]
+  },
+
+  "menu-item#consoles-mobile": {
+    "props": {
+      "id": "menu-item-category-consoles",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Consoles",
+        "text": "Consoles"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#consoles"]
+  },
+
+  
+  "vtex.menu@2.x:submenu.accordion#consoles": {
+    "children": ["vtex.menu@2.x:menu#consoles-accordion"]
+  },
+
+
+  "vtex.menu@2.x:menu#consoles-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#playstation",
+      "menu-item#xbox",
+      "menu-item#nintendo"
+    ]
+  },
+
+  "menu-item#mais-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Mais",
+        "text": "Mais"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#mais"]
+  },
+  "vtex.menu@2.x:submenu.accordion#mais": {
+    "children": ["vtex.menu@2.x:menu#footer-mais-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-mais-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#sobre",
+      "menu-item#videogames",
+      "menu-item#tvs"
+    ]
+  },
+
+  "menu-item#sale-mobile": {
+    "props": {
+      "itemProps": {
+        "tagTitle": "Mais",
+        "text": "Mais"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#sale"]
+  },
+  "vtex.menu@2.x:submenu.accordion#sale": {
+    "children": ["vtex.menu@2.x:menu#footer-sale-mobile"]
+  },
+
+  "vtex.menu@2.x:menu#footer-sale-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#sobre",
+      "menu-item#videogames",
+      "menu-item#tvs"
+    ]
+  }
+}

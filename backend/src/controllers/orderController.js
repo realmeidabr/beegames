@@ -1,5 +1,6 @@
 import IOClient from '../services/index.js'
 import { calcPoints } from '../functions/calc.js'
+
 class OrderController {
 
   getFeedPing = async (req, res) => {
@@ -20,5 +21,6 @@ class OrderController {
 }
 
 export default new OrderController
+
 
 // Tested via API client only (FeedV3 Order Hook dependent)

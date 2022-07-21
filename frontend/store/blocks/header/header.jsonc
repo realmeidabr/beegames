@@ -70,7 +70,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://raw.githubusercontent.com/KaduCury/SenacAlg1/master/BeeLogo3.png"
+      "url": "assets/imgs/logo/BeeLogo-text.png"
     }
   },
   "header-layout.mobile": {
@@ -90,7 +90,6 @@
       "flex-layout.col#spacer",
       "login",
       //futuro mostrador de pontuação de fidelidade/contador 
-      "locale-switcher",
       "minicart.v2"
     ],
     "props": {
@@ -108,9 +107,15 @@
 
   "menu#drawer": {
     "children": [
-      "menu-item#category-apparel",
+      "search-bar",
+      "menu-item#category-apparel-clothing",
+      "menu-item#category-apparel-accessories",
+      "menu-item#category-apparel-eyeglasses",
+      "menu-item#category-camisetas",
       "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#about-us",
+      "menu-item#faq",
+      "menu-item#contact-us"
     ],
     "props": {
       "orientation": "vertical"
@@ -121,7 +126,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://raw.githubusercontent.com/KaduCury/SenacAlg1/master/BeeLogo3.png"
+      "url": "assets/imgs/logo/BeeLogo-img.png"
     }
   }
 }

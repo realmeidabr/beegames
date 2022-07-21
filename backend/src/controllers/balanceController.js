@@ -8,6 +8,7 @@ class BalanceController {
     const balance = await IOClient.getUserPointsBalance(userId)
     res.send({ balance })
   }
+
   //TODO: implement req.body validations
   subtractBalance = async (req, res) => {
     const { userId, amount } = req.body

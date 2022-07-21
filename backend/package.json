@@ -1,0 +1,28 @@
+{
+  "name": "beegames-backend",
+  "version": "1.0.0",
+  "description": "Beegames project's backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server",
+    "start": "node src/server"
+  },
+  "author": "realm",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "api": "^4.5.1",
+    "axios": "^0.27.2",
+    "cross-fetch": "^3.1.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "node-fetch": "^3.2.9",
+    "openssl": "^2.0.0",
+    "react-apollo": "^3.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "sucrase": "^3.24.0"
+  }
+}

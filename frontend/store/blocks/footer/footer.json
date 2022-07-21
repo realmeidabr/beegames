@@ -11,10 +11,10 @@
   },
   "flex-layout.row#footer-1-desktop": {
     "children": [
-      "vtex.menu@2.x:menu#Products",
-      "vtex.menu@2.x:menu#footer-clothing",
-      "vtex.menu@2.x:menu#footer-decoration",
-      "vtex.menu@2.x:menu#footer-bags",
+      "vtex.menu@2.x:menu#Consoles",
+      "vtex.menu@2.x:menu#footer-consoles",
+      "vtex.menu@2.x:menu#footer-mais",
+      "vtex.menu@2.x:menu#footer-pc",
       "footer-spacer",
       "social-networks"
     ],
@@ -68,7 +68,7 @@
   },
   "rich-text#footer": {
     "props": {
-      "text": "BeeGames: Rua XXXXXXXXXXX",
+      "text": "2022 BeeGames -  01.234.5678/0001-09 - Av. Brg. Faria Lima, 4440 - Vila Olímpia, São Paulo - SP, 04538-132",
       "blockClass": "footer"
     }
   },
@@ -109,7 +109,7 @@
   },
   "rich-text#footer-mobile": {
     "props": {
-      "text": "BeeGames: Rua XXXXXXXXXXX",
+      "text": "2022 BeeGames -  01.234.5678/0001-09 - Av. Brg. Faria Lima, 4440 - Vila Olímpia, São Paulo - SP, 04538-132",
       "blockClass": "footer"
     }
   }

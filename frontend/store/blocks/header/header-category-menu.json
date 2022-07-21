@@ -1,0 +1,218 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#category-apparel",
+      "menu-item#category-camisetas",
+      "menu-item#category-home",
+      "menu-item#more"
+    ]
+  },
+  "menu-item#category-apparel": {
+    "props": {
+      "id": "menu-item-category-apparel",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Consoles",
+        "text": "Consoles"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-apparel"
+    ]
+  },
+  "vtex.menu@2.x:submenu#category-apparel": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-apparel"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-apparel": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-apparel-clothing",
+      "menu-item#category-apparel-accessories",
+      "menu-item#category-apparel-eyeglasses"
+    ]
+  },
+  "menu-item#category-apparel-clothing": {
+    "props": {
+      "id": "menu-item-category-apparel-clothing",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/apparel---accessories/clothing/",
+        "noFollow": false,
+        "tagTitle": "Playstation",
+        "text": "Playstation"
+      }
+    }
+  },
+  "menu-item#category-apparel-accessories": {
+    "props": {
+      "id": "menu-item-category-apparel-accessories",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Xbox",
+        "text": "Xbox"
+      }
+    }
+  },
+  "menu-item#category-apparel-eyeglasses": {
+    "props": {
+      "id": "menu-item-category-apparel-eyeglasses",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Nintendo",
+        "text": "Nintendo"
+      }
+    }
+  },
+
+  "menu-item#category-camisetas": {
+    "props": {
+      "id": "menu-item-category-camisetas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "Camisetas",
+        "text": "Camisetas"
+      }
+    }
+  },
+
+  "menu-item#category-home": {
+    "props": {
+      "id": "menu-item-category-home",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "tagTitle": "PC",
+        "text": "PC"
+      }
+    }
+  },
+  "menu-item#more": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Mais",
+        "text": "Mais"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#more"
+    ]
+  },
+  "vtex.menu@2.x:submenu#more": {
+    "props": {
+      "orientation": "vertical",
+      "width": "auto"
+    },
+    "children": [
+      "flex-layout.row#menu-more"
+    ]
+  },
+  "flex-layout.row#menu-more": {
+    "children": [
+      "flex-layout.col#menu-more-1"
+    ]
+  },
+  "flex-layout.col#menu-more-1": {
+    "children": [
+      "vtex.menu@2.x:menu#more"
+    ]
+  },
+  "vtex.menu@2.x:menu#more": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#about-us",
+      "menu-item#faq",
+      "menu-item#contact-us"
+    ]
+  },
+  "menu-item#about-us": {
+    "props": {
+      "id": "menu-item-about-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/about-us",
+        "noFollow": true,
+        "tagTitle": "Sobre",
+        "text": "Sobre"
+      }
+    }
+  },
+  "menu-item#faq": {
+    "props": {
+      "id": "menu-item-faq",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/faq",
+        "noFollow": true,
+        "tagTitle": "SAC",
+        "text": "SAC"
+      }
+    }
+  },
+  "menu-item#contact-us": {
+    "props": {
+      "id": "menu-item-contact-us",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-us",
+        "noFollow": true,
+        "tagTitle": "Contact Us",
+        "text": "Fale conosco"
+      }
+    }
+  }
+}
